@@ -51,7 +51,7 @@ export default function Cadastrar({navigator, route}) {
             nome: nCompleto,
             email: user.email,
             senha: senha,
-            saldo: saldo,
+            saldo: parseFloat(saldo),
             createdAt: new Date(),
           });
   

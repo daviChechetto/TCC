@@ -93,7 +93,7 @@ export default function Perfil({ docId }) {
         <View>
           <Text style={styles.nome}>{nome}</Text>
           <View style={styles.saldoBox}>
-            <Text style={styles.saldo}>Saldo: R$ {saldo}</Text>
+            <Text style={styles.saldo}>Saldo: R$ {saldo.toLocaleString('pt-BR')}</Text>
           </View>
         </View>
       </View>
@@ -108,7 +108,7 @@ export default function Perfil({ docId }) {
         <View style={styles.infoBox}>
           <View>
             <Text style={styles.infoLabel}>Salário:</Text>
-            <Text style={styles.infoText}>R$ {isNaN(salario) ? 0 : salario}</Text>
+            <Text style={styles.infoText}>R$ {isNaN(salario) ? 0 : salario.toLocaleString('pt-BR')}</Text>
           </View>
 
           <TouchableOpacity onPress={handleOpenModal}>

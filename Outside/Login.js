@@ -54,7 +54,7 @@ export default function Login() {
 
   return (
     <LinearGradient style={styles.container} colors={['#AFFFA8', '#4b726b']}>
-      <Image style={styles.logo} source={require('../assets/ReaLogo.png')} />
+      <Image style={styles.logo} source={require('../assets/RealLogo2W.png')} />
 
       <View style={styles.view}>
         <View style={styles.senha}>
@@ -95,7 +95,7 @@ export default function Login() {
       <TouchableOpacity style={[styles.btn, { marginTop: 80, paddingHorizontal: 64 }]} onPress={signIn}>
         <Text style={styles.txtBtn}>Entrar</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Cadastrar')}>
+      <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Termos')}>
         <Text style={styles.txtBtn}>Cadastrar</Text>
       </TouchableOpacity>
       
@@ -111,9 +111,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    height: 165,
-    width: 150,
-    marginBottom: 100,
+    height: 250,
+    width: 250,
+    marginBottom: 50,
   },
   view: {
     flexDirection: 'column',

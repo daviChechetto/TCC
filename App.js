@@ -8,6 +8,7 @@ import Cadastrar from './Outside/cadastrar';
 import Ganhos from './Inside/Ganhos';
 import Gasto from './Inside/Gasto';
 import Perfil from './Inside/Perfil';
+import Termos from './Outside/termos';
 
 export default function App() {
 
@@ -29,6 +30,8 @@ export default function App() {
         <Stack.Screen name="Ganhos" component={Ganhos} options={{ headerShown: false }}/>
         <Stack.Screen name="Gastos" component={Gasto} options={{ headerShown: false }}/>
         <Stack.Screen name="Perfil" component={Perfil} options={{ headerShown: false }}/>
+        <Stack.Screen name="Termos" component={Termos} options={{ headerShown: false }}/>
+
       </Stack.Navigator>
     </NavigationContainer>
   );

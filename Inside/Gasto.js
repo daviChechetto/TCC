@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     height:"70%",
     width:350,
     marginHorizontal:"20%",
-    
+
   },
   aba:{
     flexDirection:"row",

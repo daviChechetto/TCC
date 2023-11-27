@@ -25,7 +25,7 @@ export default function Home({route}) {
 
   return (
     <Tab.Navigator
-      initialRouteName="Gastos"
+      initialRouteName="Termos"
       screenOptions={{
         tabBarActiveTintColor: '#E4E4E4',
         tabBarStyle: { backgroundColor: '#29322C', borderTopWidth: 0 /* Removendo a borda superior */ },

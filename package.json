@@ -10,6 +10,7 @@
     "build": "react-native build"
   },
   "dependencies": {
+    "@expo/webpack-config": "^18.0.1",
     "@firebase/auth": "^0.23.2",
     "@firebase/firestore": "^3.12.2",
     "@react-navigation/bottom-tabs": "^6.5.7",
